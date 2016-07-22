@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0DB172C1D41E389000AC66E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DB172B1D41E389000AC66E /* AppDelegate.swift */; };
+		A0DB172E1D41E389000AC66E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DB172D1D41E389000AC66E /* ViewController.swift */; };
+		A0DB17311D41E389000AC66E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DB172F1D41E389000AC66E /* Main.storyboard */; };
+		A0DB17331D41E389000AC66E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0DB17321D41E389000AC66E /* Assets.xcassets */; };
+		A0DB17361D41E389000AC66E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DB17341D41E389000AC66E /* LaunchScreen.storyboard */; };
+		A0DB17411D41E389000AC66E /* Text_Field_View_Shift_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DB17401D41E389000AC66E /* Text_Field_View_Shift_DemoTests.swift */; };
+		A0DB174C1D41E389000AC66E /* Text_Field_View_Shift_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DB174B1D41E389000AC66E /* Text_Field_View_Shift_DemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0DB173D1D41E389000AC66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0DB17201D41E389000AC66E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0DB17271D41E389000AC66E;
+			remoteInfo = "Text Field View Shift Demo";
+		};
+		A0DB17481D41E389000AC66E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0DB17201D41E389000AC66E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0DB17271D41E389000AC66E;
+			remoteInfo = "Text Field View Shift Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0DB17281D41E389000AC66E /* Text Field View Shift Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Field View Shift Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0DB172B1D41E389000AC66E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0DB172D1D41E389000AC66E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0DB17301D41E389000AC66E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0DB17321D41E389000AC66E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0DB17351D41E389000AC66E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0DB17371D41E389000AC66E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0DB173C1D41E389000AC66E /* Text Field View Shift DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text Field View Shift DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0DB17401D41E389000AC66E /* Text_Field_View_Shift_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Field_View_Shift_DemoTests.swift; sourceTree = "<group>"; };
+		A0DB17421D41E389000AC66E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0DB17471D41E389000AC66E /* Text Field View Shift DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text Field View Shift DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0DB174B1D41E389000AC66E /* Text_Field_View_Shift_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Field_View_Shift_DemoUITests.swift; sourceTree = "<group>"; };
+		A0DB174D1D41E389000AC66E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0DB17251D41E389000AC66E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DB17391D41E389000AC66E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DB17441D41E389000AC66E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0DB171F1D41E389000AC66E = {
+			isa = PBXGroup;
+			children = (
+				A0DB172A1D41E389000AC66E /* Text Field View Shift Demo */,
+				A0DB173F1D41E389000AC66E /* Text Field View Shift DemoTests */,
+				A0DB174A1D41E389000AC66E /* Text Field View Shift DemoUITests */,
+				A0DB17291D41E389000AC66E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0DB17291D41E389000AC66E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0DB17281D41E389000AC66E /* Text Field View Shift Demo.app */,
+				A0DB173C1D41E389000AC66E /* Text Field View Shift DemoTests.xctest */,
+				A0DB17471D41E389000AC66E /* Text Field View Shift DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0DB172A1D41E389000AC66E /* Text Field View Shift Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A0DB172B1D41E389000AC66E /* AppDelegate.swift */,
+				A0DB172D1D41E389000AC66E /* ViewController.swift */,
+				A0DB172F1D41E389000AC66E /* Main.storyboard */,
+				A0DB17321D41E389000AC66E /* Assets.xcassets */,
+				A0DB17341D41E389000AC66E /* LaunchScreen.storyboard */,
+				A0DB17371D41E389000AC66E /* Info.plist */,
+			);
+			path = "Text Field View Shift Demo";
+			sourceTree = "<group>";
+		};
+		A0DB173F1D41E389000AC66E /* Text Field View Shift DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0DB17401D41E389000AC66E /* Text_Field_View_Shift_DemoTests.swift */,
+				A0DB17421D41E389000AC66E /* Info.plist */,
+			);
+			path = "Text Field View Shift DemoTests";
+			sourceTree = "<group>";
+		};
+		A0DB174A1D41E389000AC66E /* Text Field View Shift DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0DB174B1D41E389000AC66E /* Text_Field_View_Shift_DemoUITests.swift */,
+				A0DB174D1D41E389000AC66E /* Info.plist */,
+			);
+			path = "Text Field View Shift DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0DB17271D41E389000AC66E /* Text Field View Shift Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0DB17501D41E389000AC66E /* Build configuration list for PBXNativeTarget "Text Field View Shift Demo" */;
+			buildPhases = (
+				A0DB17241D41E389000AC66E /* Sources */,
+				A0DB17251D41E389000AC66E /* Frameworks */,
+				A0DB17261D41E389000AC66E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Text Field View Shift Demo";
+			productName = "Text Field View Shift Demo";
+			productReference = A0DB17281D41E389000AC66E /* Text Field View Shift Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0DB173B1D41E389000AC66E /* Text Field View Shift DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0DB17531D41E389000AC66E /* Build configuration list for PBXNativeTarget "Text Field View Shift DemoTests" */;
+			buildPhases = (
+				A0DB17381D41E389000AC66E /* Sources */,
+				A0DB17391D41E389000AC66E /* Frameworks */,
+				A0DB173A1D41E389000AC66E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0DB173E1D41E389000AC66E /* PBXTargetDependency */,
+			);
+			name = "Text Field View Shift DemoTests";
+			productName = "Text Field View Shift DemoTests";
+			productReference = A0DB173C1D41E389000AC66E /* Text Field View Shift DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0DB17461D41E389000AC66E /* Text Field View Shift DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0DB17561D41E389000AC66E /* Build configuration list for PBXNativeTarget "Text Field View Shift DemoUITests" */;
+			buildPhases = (
+				A0DB17431D41E389000AC66E /* Sources */,
+				A0DB17441D41E389000AC66E /* Frameworks */,
+				A0DB17451D41E389000AC66E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0DB17491D41E389000AC66E /* PBXTargetDependency */,
+			);
+			name = "Text Field View Shift DemoUITests";
+			productName = "Text Field View Shift DemoUITests";
+			productReference = A0DB17471D41E389000AC66E /* Text Field View Shift DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0DB17201D41E389000AC66E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jaemoon Park";
+				TargetAttributes = {
+					A0DB17271D41E389000AC66E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A0DB173B1D41E389000AC66E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A0DB17271D41E389000AC66E;
+					};
+					A0DB17461D41E389000AC66E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A0DB17271D41E389000AC66E;
+					};
+				};
+			};
+			buildConfigurationList = A0DB17231D41E389000AC66E /* Build configuration list for PBXProject "Text Field View Shift Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0DB171F1D41E389000AC66E;
+			productRefGroup = A0DB17291D41E389000AC66E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0DB17271D41E389000AC66E /* Text Field View Shift Demo */,
+				A0DB173B1D41E389000AC66E /* Text Field View Shift DemoTests */,
+				A0DB17461D41E389000AC66E /* Text Field View Shift DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0DB17261D41E389000AC66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DB17361D41E389000AC66E /* LaunchScreen.storyboard in Resources */,
+				A0DB17331D41E389000AC66E /* Assets.xcassets in Resources */,
+				A0DB17311D41E389000AC66E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DB173A1D41E389000AC66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DB17451D41E389000AC66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0DB17241D41E389000AC66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DB172E1D41E389000AC66E /* ViewController.swift in Sources */,
+				A0DB172C1D41E389000AC66E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DB17381D41E389000AC66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DB17411D41E389000AC66E /* Text_Field_View_Shift_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DB17431D41E389000AC66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DB174C1D41E389000AC66E /* Text_Field_View_Shift_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0DB173E1D41E389000AC66E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0DB17271D41E389000AC66E /* Text Field View Shift Demo */;
+			targetProxy = A0DB173D1D41E389000AC66E /* PBXContainerItemProxy */;
+		};
+		A0DB17491D41E389000AC66E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0DB17271D41E389000AC66E /* Text Field View Shift Demo */;
+			targetProxy = A0DB17481D41E389000AC66E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0DB172F1D41E389000AC66E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0DB17301D41E389000AC66E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0DB17341D41E389000AC66E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0DB17351D41E389000AC66E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0DB174E1D41E389000AC66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0DB174F1D41E389000AC66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0DB17511D41E389000AC66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Text Field View Shift Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaemoonpark.Text-Field-View-Shift-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0DB17521D41E389000AC66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Text Field View Shift Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaemoonpark.Text-Field-View-Shift-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0DB17541D41E389000AC66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Text Field View Shift DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaemoonpark.Text-Field-View-Shift-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text Field View Shift Demo.app/Text Field View Shift Demo";
+			};
+			name = Debug;
+		};
+		A0DB17551D41E389000AC66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Text Field View Shift DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaemoonpark.Text-Field-View-Shift-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text Field View Shift Demo.app/Text Field View Shift Demo";
+			};
+			name = Release;
+		};
+		A0DB17571D41E389000AC66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Text Field View Shift DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaemoonpark.Text-Field-View-Shift-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Text Field View Shift Demo";
+			};
+			name = Debug;
+		};
+		A0DB17581D41E389000AC66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Text Field View Shift DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaemoonpark.Text-Field-View-Shift-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Text Field View Shift Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0DB17231D41E389000AC66E /* Build configuration list for PBXProject "Text Field View Shift Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0DB174E1D41E389000AC66E /* Debug */,
+				A0DB174F1D41E389000AC66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0DB17501D41E389000AC66E /* Build configuration list for PBXNativeTarget "Text Field View Shift Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0DB17511D41E389000AC66E /* Debug */,
+				A0DB17521D41E389000AC66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0DB17531D41E389000AC66E /* Build configuration list for PBXNativeTarget "Text Field View Shift DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0DB17541D41E389000AC66E /* Debug */,
+				A0DB17551D41E389000AC66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0DB17561D41E389000AC66E /* Build configuration list for PBXNativeTarget "Text Field View Shift DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0DB17571D41E389000AC66E /* Debug */,
+				A0DB17581D41E389000AC66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0DB17201D41E389000AC66E /* Project object */;
+}
