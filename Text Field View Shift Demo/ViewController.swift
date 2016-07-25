@@ -21,6 +21,34 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(true)
+        self.subscribeToKeyboardNotification()
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(true)
+        self.unsubscribeToKeyboardNotification()
+    }
+   
+    func getKeyboardHeight(notification:NSNotification) -> CGFloat{
+        let userInfo = notification.userInfo
+        let keyBoardInfo = userInfo![UIKeyboardFrameBeginUserInfoKey] as! NSValue
+        return keyBoardInfo.CGRectValue().height
+    }
+    
+    func showKeyboard(notification: NSNotification){
+        self.view.frame.origin.y -= getKeyboardHeight(notification)
+    }
+    
+    func subscribeToKeyboardNotification(){
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "showKeyboard:", name: UIKeyboardWillShowNotification, object: nil)
+    }
+    
+    func unsubscribeToKeyboardNotification(){
+        NSNotificationCenter.defaultCenter().removeObserver(self, name: UIKeyboardWillShowNotification, object: nil)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					A0DB17271D41E389000AC66E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D7WG485B62;
 					};
 					A0DB173B1D41E389000AC66E = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -399,10 +400,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Text Field View Shift Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaemoonpark.Text-Field-View-Shift-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +414,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Text Field View Shift Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaemoonpark.Text-Field-View-Shift-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +489,7 @@
 				A0DB17521D41E389000AC66E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0DB17531D41E389000AC66E /* Build configuration list for PBXNativeTarget "Text Field View Shift DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +498,7 @@
 				A0DB17551D41E389000AC66E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0DB17561D41E389000AC66E /* Build configuration list for PBXNativeTarget "Text Field View Shift DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +507,7 @@
 				A0DB17581D41E389000AC66E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
