@@ -8,16 +8,36 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     let myAttributes = [NSStrokeColorAttributeName: UIColor.blackColor(), NSStrokeWidthAttributeName: 4.0,NSForegroundColorAttributeName: UIColor.whiteColor(), NSFontAttributeName: UIFont.init(name: "HelveticaNeue-Bold", size: 24.0)!]
     //NSFontAttributeName: UIFont.init(name: "Comic Sans", size: 17.0)
     @IBOutlet weak var topTextField: UITextField!
     @IBOutlet weak var bottomTextField: UITextField!
     
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
+    
+    func textFieldDidBeginEditing(textField: UITextField) {
+        if topTextField.text == "TOP" {
+            topTextField.text = ""
+        }
+        if bottomTextField.text == "BOTTOM" {
+            bottomTextField.text = ""
+        }
+    }
+    
+    
     override func viewDidLoad() {
-       
+        topTextField.delegate = self
+        bottomTextField.delegate = self
         topTextField.defaultTextAttributes = myAttributes
         bottomTextField.defaultTextAttributes = myAttributes
+        topTextField.textAlignment = NSTextAlignment.Center
+        bottomTextField.textAlignment = NSTextAlignment.Center
+        topTextField.text = "TOP"
+        bottomTextField.text = "BOTTOM"
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -53,7 +73,7 @@ class ViewController: UIViewController {
     }
     
     func subscribeToKeyboardHideNotification(){
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "hideKeyboard:", name: UIKeyboardWillHideNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "hideKeyboardShift:", name: UIKeyboardWillHideNotification, object: nil)
     }
     
     func unsubscribeToKeyboardNotification(){
