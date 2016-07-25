@@ -25,11 +25,13 @@ class ViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(true)
         self.subscribeToKeyboardNotification()
+        self.subscribeToKeyboardHideNotification()
     }
     
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(true)
         self.unsubscribeToKeyboardNotification()
+        self.unsubscribeToKeyboardHideNotification()
     }
    
     func getKeyboardHeight(notification:NSNotification) -> CGFloat{
@@ -42,12 +44,24 @@ class ViewController: UIViewController {
         self.view.frame.origin.y -= getKeyboardHeight(notification)
     }
     
+    func hideKeyboardShift(notification: NSNotification){
+        self.view.frame.origin.y += getKeyboardHeight(notification)
+    }
+    
     func subscribeToKeyboardNotification(){
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "showKeyboard:", name: UIKeyboardWillShowNotification, object: nil)
     }
     
+    func subscribeToKeyboardHideNotification(){
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "hideKeyboard:", name: UIKeyboardWillHideNotification, object: nil)
+    }
+    
     func unsubscribeToKeyboardNotification(){
         NSNotificationCenter.defaultCenter().removeObserver(self, name: UIKeyboardWillShowNotification, object: nil)
+    }
+    
+    func unsubscribeToKeyboardHideNotification(){
+        NSNotificationCenter.defaultCenter().removeObserver(self, name: UIKeyboardWillHideNotification, object: nil)
     }
 
     override func didReceiveMemoryWarning() {
