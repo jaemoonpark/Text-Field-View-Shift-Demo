@@ -13,6 +13,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     //NSFontAttributeName: UIFont.init(name: "Comic Sans", size: 17.0)
     @IBOutlet weak var topTextField: UITextField!
     @IBOutlet weak var bottomTextField: UITextField!
+    var shiftOne = false
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         self.view.endEditing(true)
@@ -61,11 +62,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func showKeyboard(notification: NSNotification){
-        self.view.frame.origin.y -= getKeyboardHeight(notification)
+        if(shiftOne == false){
+            self.view.frame.origin.y -= getKeyboardHeight(notification)
+            shiftOne = true
+        }
     }
     
     func hideKeyboardShift(notification: NSNotification){
-        self.view.frame.origin.y += getKeyboardHeight(notification)
+        if(shiftOne == true){
+            self.view.frame.origin.y += getKeyboardHeight(notification)
+            shiftOne = false
+        }
     }
     
     func subscribeToKeyboardNotification(){
